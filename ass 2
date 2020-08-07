@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+	
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: purple;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: pink;
+		border: 20px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.sub1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 2px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: white;
+		
+	}
+	.sub2 {
+		float: right;
+		color: red;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 2px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: blue;
+		
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 2px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: yellow;
+		
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: pink;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	
+	
+</style>
+<body >
+<h1>ASSIGMENT2</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub1">course</p>
+			<p class="content">
+			 it extend collection interface it represent the unorderd elements which doesnt store duplicate elements  it extend collectiion interface it represent te unordered elemnts which doesnt store duplicate elements  it extend collectiion interface it represent te unordered set of elements
+     which doesnt store duplicate elements</p1>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub2">week1</p>
+			<p class="content">it extend collection interface it represent the unorderd elements which doesnt store duplicate elements  it extend collectiion interface it represent te unordered elemnts which doesnt store duplicate elements  it extend collectiion interface it represent te unordered set of elements
+     which doesnt store duplicate elements</p1>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">week2</p>
+			<p class="content">it extend collection interface it represent the unorderd elements which doesnt store duplicate elements  it extend collectiion interface it represent te unordered elemnts which doesnt store duplicate elements  it extend collectiion interface it represent te unordered set of elements
+     which doesnt store duplicate elements</p1>
+		</div>
+</body>
+</html>
+
